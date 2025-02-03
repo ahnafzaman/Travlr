@@ -1,29 +1,29 @@
 [
     {
-        "name": "Beach Getaway",
-        "destination": "Hawaii",
-        "price": 1200,
-        "startDate": "2025-06-15T00:00:00.000Z",
-        "endDate": "2025-06-22T00:00:00.000Z",
-        "description": "Enjoy a relaxing beach vacation in Hawaii.",
-        "imageUrl": "https://example.com/hawaii.jpg"
+        "name": "Beach Retreat",
+        "destination": "Miami, Florida",
+        "price": 1500,
+        "startDate": "2025-01-01T00:00:00.000Z",
+        "endDate": "2025-12-07T00:00:00.000Z",
+        "description": "Relax on the sunny beaches of Miami with vibrant nightlife and ocean views.",
+        "imageUrl": ""
     },
     {
-        "name": "Mountain Adventure",
-        "destination": "Swiss Alps",
-        "price": 2000,
-        "startDate": "2025-07-10T00:00:00.000Z",
-        "endDate": "2025-07-20T00:00:00.000Z",
-        "description": "Experience the breathtaking scenery of the Swiss Alps.",
-        "imageUrl": "https://example.com/alps.jpg"
+        "name": "Mountain Escape",
+        "destination": "Aspen, Colorado",
+        "price": 3550,
+        "startDate": "2025-02-15T00:00:00.000Z",
+        "endDate": "2025-11-22T00:00:00.000Z",
+        "description": "Enjoy skiing and cozy lodges in the breathtaking mountains of Aspen.",
+        "imageUrl": ""
     },
     {
-        "name": "City Explorer",
-        "destination": "New York City",
-        "price": 900,
-        "startDate": "2025-08-01T00:00:00.000Z",
-        "endDate": "2025-08-07T00:00:00.000Z",
-        "description": "Discover the vibrant culture and attractions of NYC.",
-        "imageUrl": "https://example.com/nyc.jpg"
+        "name": "City Lights Tour",
+        "destination": "New York City, New York",
+        "price": 3200,
+        "startDate": "2025-05-05T00:00:00.000Z",
+        "endDate": "2025-12-12T00:00:00.000Z",
+        "description": "Explore the iconic landmarks, museums, and Broadway shows in NYC.",
+        "imageUrl": ""
     }
 ]
