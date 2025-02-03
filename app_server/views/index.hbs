@@ -1,5 +1,4 @@
-{{!-- <h1>{{title}}</h1>
-<p>Welcome to {{title}}</p> --}}
+{{!-- Dynamic Trips Page --}}
 
 <!DOCTYPE html>
 <!-- Website template by freewebsitetemplates.com -->
@@ -51,38 +50,19 @@
 					</p>
 				</div>
 				<div id="main">
-					<div class="box">
-						<div>
-							<div>
-								<h3>Latest Blog</h3>
-								<ul>
-									<li>
-										<h4><a href="news">2023 Best Beaches Contest Winners</a></h4>
-										<span>April 02, 2023</span>
-										<p>
-											Integer magna leo, posuere et dignissim vitae, porttitor at odio. Pellentesque a metus nec magna placerat volutpat. Nunc nisi mi, elementum sit amet...
-										</p>
-									</li>
-									<li>
-										<h4><a href="news">Top 10 Diving Spots</a></h4>
-										<span>May 29, 2023</span>
-										<p>
-											Maecenas scelerisque odio quis arcu fringilla malesuada. Nulla facilisi. In libero nulla, fermentum ut pretium ac, pharetra et eros...
-										</p>
-									</li>
-								</ul>
-							</div>
+					<h2>Our Featured Trips</h2>
+					<div class="trips">
+						{{#each trips}}
+						<div class="trip">
+							<h3>{{name}}</h3>
+							<p><strong>Destination:</strong> {{destination}}</p>
+							<p><strong>Price:</strong> ${{price}}</p>
+							<p><strong>Start Date:</strong> {{startDate}}</p>
+							<p><strong>End Date:</strong> {{endDate}}</p>
+							<p>{{description}}</p>
+							<img src="{{imageUrl}}" alt="{{name}}" />
 						</div>
-					</div>
-					<div id="testimonials" class="box">
-						<div>
-							<div>
-								<h3>Testimonials</h3>
-								<p>
-									“In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor. Quisque nec nunc ac mi ultrices iaculis. Aenean quis elit mauris, nec vestibulum lorem.” <span>- <a href="index.html">Juan De La Cruz</a></span>
-								</p>
-							</div>
-						</div>
+						{{/each}}
 					</div>
 				</div>
 				<div id="sidebar">
@@ -124,7 +104,10 @@
 					</li>
 				</ul>
 				<div id="connect">
-					<a href="http://pinterest.com/fwtemplates/" target="_blank" class="pinterest"></a> <a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> <a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a> <a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
+					<a href="http://pinterest.com/fwtemplates/" target="_blank" class="pinterest"></a> 
+					<a href="http://freewebsitetemplates.com/go/facebook/" target="_blank" class="facebook"></a> 
+					<a href="http://freewebsitetemplates.com/go/twitter/" target="_blank" class="twitter"></a> 
+					<a href="http://freewebsitetemplates.com/go/googleplus/" target="_blank" class="googleplus"></a>
 				</div>
 			</div>
 			<p>
