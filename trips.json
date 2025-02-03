@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Beach Getaway",
+        "destination": "Hawaii",
+        "price": 1200,
+        "startDate": "2025-06-15T00:00:00.000Z",
+        "endDate": "2025-06-22T00:00:00.000Z",
+        "description": "Enjoy a relaxing beach vacation in Hawaii.",
+        "imageUrl": "https://example.com/hawaii.jpg"
+    },
+    {
+        "name": "Mountain Adventure",
+        "destination": "Swiss Alps",
+        "price": 2000,
+        "startDate": "2025-07-10T00:00:00.000Z",
+        "endDate": "2025-07-20T00:00:00.000Z",
+        "description": "Experience the breathtaking scenery of the Swiss Alps.",
+        "imageUrl": "https://example.com/alps.jpg"
+    },
+    {
+        "name": "City Explorer",
+        "destination": "New York City",
+        "price": 900,
+        "startDate": "2025-08-01T00:00:00.000Z",
+        "endDate": "2025-08-07T00:00:00.000Z",
+        "description": "Discover the vibrant culture and attractions of NYC.",
+        "imageUrl": "https://example.com/nyc.jpg"
+    }
+]
