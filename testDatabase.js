@@ -7,10 +7,10 @@ const testDatabase = async () => {
     await connectDB();
     
     try {
-        await Trip.deleteMany(); // Clear existing data
-        await Trip.insertMany(tripsData); // Insert sample data
+        await Trip.deleteMany(); 
+        await Trip.insertMany(tripsData); 
         
-        const trips = await Trip.find(); // Retrieve inserted data
+        const trips = await Trip.find();
         console.log('Database successfully populated with trips:', trips);
     } catch (error) {
         console.error('Error populating database:', error);
