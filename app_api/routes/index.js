@@ -11,13 +11,13 @@
 
 const express = require('express');
 const router = express.Router();
-const authRoutes = require('./authRoutes'); // Add this
-const tripRoutes = require('./trips'); // Make sure trips.js is inside routes/
+const authRoutes = require('./authRoutes'); 
+const tripRoutes = require('./trips'); 
 
 
 
 router.use('/trips', tripRoutes);
-router.use('/auth', authRoutes); // Add this
+router.use('/auth', authRoutes); 
 
 module.exports = router;
 

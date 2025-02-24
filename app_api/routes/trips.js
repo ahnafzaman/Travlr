@@ -7,4 +7,4 @@ const router = express.Router();
 router.get('/', getTrips);
 router.post('/', authMiddleware, addTrip);
 
-module.exports = router; // Ensure this is correctly exported
+module.exports = router; 
